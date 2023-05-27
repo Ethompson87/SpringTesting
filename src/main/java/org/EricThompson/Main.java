@@ -8,7 +8,10 @@ public class Main {
 
         ApplicationContext context = new ClassPathXmlApplicationContext("Animal.xml");
 
-        Animal noise = (Animal)context.getBean("cat");
+        Dog noise = (Dog)context.getBean("dog");
         noise.sound();
+
+//        Food food = (Food)context.getBean("food");
+//        System.out.println(food);
     }
 }

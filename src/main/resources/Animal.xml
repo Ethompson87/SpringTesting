@@ -9,6 +9,16 @@
        http://www.springframework.org/schema/context/spring-context-4.0.xsd">
 
     <context:component-scan base-package="org.EricThompson"></context:component-scan>
-<!--    <bean id="noise" class="org.EricThompson.Cat"></bean>-->
+
+<!--    used the @Component in the dog and cat class to create a bean-->
+    <!--    <bean id="noise" class="org.EricThompson.Cat"></bean>-->
+
+<!--    <bean id="food" class="org.EricThompson.Food">-->
+        <!--    used property tag with the toString() from Food class - assigns the value to the brand variable-->
+        <!--        <property name="brand" value="Wellness"></property> -->
+
+        <!--    used constructor-arg with the constructor in the food class - assigns the value to the brand variable-->
+        <!--        <constructor-arg value="Wellness"></constructor-arg> -->
+<!--    </bean>-->
 
 </beans>
